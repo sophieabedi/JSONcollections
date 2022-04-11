@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik+Bubbles&display=swap');
+
+
+
+html, body {
+  background-image: url('https://pa1.narvii.com/6381/97f033911247bfa82b4f7cb0ae0fed7d5fd17768_hq.gif');
+
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+font-family: 'Open Sans', sans-serif;
+}
+h1{
+  font-family: 'Rubik Bubbles', cursive;
+}
+h3 {
+  text-decoration: overline;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h4{
+  text-decoration: overline;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contentGrid {
+  display: grid;
+  background-color: Ivory;
+  padding: 30px;
+  font-size: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.contentItem {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: Ivory;
+  border: 2px solid Black;
+  border-radius: 1vmin;
+
+}
+
+.footerImageContainer {
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: 100%;
+}
+
+.footerImage {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0.25vmin;
+}
